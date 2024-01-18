@@ -4,7 +4,7 @@ import { Home } from './pages/home/Home';
 import { Order } from './pages/order/Order';
 import { Cart } from './pages/cart/Cart';
 import { NoPage } from './pages/nopage/NoPage';
-import { MyState } from './context/data/myState';
+import { MyState } from './context/data/MyState';
 import { Login } from './pages/registeration/Login';
 import { Singup } from './pages/registeration/Singup.';
 import { ProductInfo } from './pages/productInfo/ProductInfo';
