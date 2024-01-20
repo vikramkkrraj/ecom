@@ -95,6 +95,7 @@ export const Cart = () => {
 
     try {
       const result = await addDoc(collection(fireBD, 'orders'), orderInfo);
+      toast.success('Order placed');
       console.log(result);
       
     } catch (error) {
